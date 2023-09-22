@@ -12,6 +12,7 @@ body {
 #main {
   width: 100%;
 }
+/* Hero Section Start */
 #hero {
   width: 100%;
   height: 100vh;
@@ -63,3 +64,33 @@ body {
   margin-top: 0.5vw;
   font-size: 1.2vw;
 }
+#hero_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  bottom: 3%;
+  padding: 0 2vw;
+}
+#hero_footer a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#iconset {
+  display: flex;
+  gap: 5px;
+}
+#hero_footer .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #888;
+  color: #000;
+  font-weight: 900;
+}
+/* Hero Section End */
